@@ -1,0 +1,61 @@
+
+#flag{
+	float: right;
+	width:250px;
+}
+.map__image{
+	width: 50%;
+	float:left;
+	
+}
+.map__image svg{
+	width: 150%;
+	height: 1000px;
+}
+.map__image path{
+	fill:#82E0AA ;
+	stroke: white;
+	stroke-width:1px;
+	transition: fill 0.3s;
+}
+
+
+.map__image path:hover{
+	fill:green  ; 
+}
+
+.map__list{
+	float:right;
+	width: 50%;
+	font-size: 2000px;
+	list-style: none;
+}
+
+.map__list a{
+	color:inherit;
+	text-decoration: none;
+	transition: color 0.3s;
+	font-size: 2000px;
+	list-style: none;
+}
+
+
+ul{
+	list-style: none;
+}
+
+li a {
+	color:#CCE5CF ;
+	font-family: 'Do Hyeon',sans-serif;
+	font-size: 25px;
+	list-style: none;
+	text-decoration: none;
+	
+}
+body{
+	background-image:url("https://media.giphy.com/media/443pAv9m6Ti8KiCoAi/giphy.gif");
+	background-size:2030px 1020px;
+}
+a:hover {
+background-color: green;
+}
